@@ -1,6 +1,42 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#bio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2 {
+    color: #007bff;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+@media (min-width: 992px) {
+    #more .d-lg-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    #more .d-lg-grid>div {
+        margin-bottom: 20px;
+    }
 }

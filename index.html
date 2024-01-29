@@ -1,40 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>My Bio Page</title>
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="My bio page with favorite music artists, films, and Instagram profile.">
+    <meta name="keywords" content="My bio page, music artists, films, Instagram">
+    <meta name="author" content="Artem Darahan">
+    <title>My bio page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid bg-dark">
+        <div class="row justify-content-center align-items-center min-vh-100">
             <div id="bio" class="col-12 col-lg-6 text-center">
-                <h1>Artem Darahan</h1>
-                <img src="photo.jpg" alt="My photo" class="img-fluid">
+                <h1 class="text-light">Artem Darahan</h1>
+                <img src="photo.jpg" alt="My photo" class="img-fluid rounded-circle mb-4">
             </div>
-            <div id="more" class="col-12 col-lg-6">
-                <h2>Favorite Music Artists</h2>
-                <ul>
-                    <li>Szymi Szyms</li>
-                    <li>OsaKa</li>
-                    <li>NEFFEX</li>
-                    <li>NBHD NICK</li>
-                    <li>Ariana Grande</li>
-                    <li>KAEF</li>
-                </ul>
-                <h2>Favorite Films</h2>
-                <ol>
-                    <li>Sing</li>
-                    <li>Sing 2</li>
-                    <li>The Boss Baby</li>
-                    <li>The Boss Baby 2</li>
-                    <li>The Fast and the Furious: Tokyo Drift</li>
-                    <li>Passengers</li>
-                </ol>
-                <a href="https://www.instagram.com/pixel_pioneerx/" class="btn btn-primary">My Instagram profile</a>
+
+            <div id="more" class="col-12 col-lg-6 text-light">
+                <div class="d-lg-grid">
+                    <div>
+                        <h2>Favorite Singers</h2>
+                        <ul>
+                            <li>Szymi Szyms</li>
+                            <li>OsaKa</li>
+                            <li>NEFFEX</li>
+                            <li>NBHD NICK</li>
+                            <li>Ariana Grande</li>
+                            <li>KAEF</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2>Favorite Films</h2>
+                        <ol>
+                            <li>Sing</li>
+                            <li>Sing 2</li>
+                            <li>The Boss Baby</li>
+                            <li>The Boss Baby 2</li>
+                            <li>The Fast and the Furious: Tokyo Drift</li>
+                            <li>Passengers</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <a href="https://www.instagram.com/pixel_pioneerx/"
+                    class="btn btn-primary btn-lg d-block mx-auto mt-4">My Instagram profile</a>
             </div>
         </div>
     </div>
-    <script src="bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
